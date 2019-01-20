@@ -1,0 +1,108 @@
+
+<!doctype html>
+<html>
+{{ template "header" }}
+<body>
+{{ template "top" . }}
+<div class="container clearfix">
+    {{ template "menu" }}
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i>
+                <a href="/Index/">首页</a>
+                <span class="crumb-step">&gt;</span>
+                <span class="crumb-name">教师管理</span>
+            </div>
+        </div>
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="/teacher/list/" method="get">
+                    <table class="search-tab">
+                        <tr>
+                            <th width="70">关键字:</th>
+                            <td><input class="common-text" placeholder="关键字" name="keywords" value="{{ .keywords }}" id="" type="text"></td>
+                            <td><input class="btn btn-primary btn2" type="submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+                <form name="list-form" id="list-form" action="/teacher/batchDel/" method="post">
+                <div class="result-title">
+                    <div class="result-list">
+                        <a href="/teacher/list/add/"><i class="icon-font"></i>添加教师</a>
+                        <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                    </div>
+                </div>
+                <div class="result-content">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th class="tc" width="5%">
+                                <input class="allchoose" id="checkbox-allchoose" type="checkbox">
+                            </th>
+                            <th class="tc" style="text-align:left;">                       
+                                <a href="/teacher/list/?{{ if eq .of "teacherName" }}{{ if eq .ob "ASC" }}ob=DESC{{ else }}ob=ASC{{ end }}{{ else }}ob=ASC{{ end }}&of=teacherName">教师名字</a>
+                            </th>
+                            <th class="tc" style="text-align:left;">  
+                                <a href="/teacher/list/?{{ if eq .of "gender" }}{{ if eq .ob "ASC" }}ob=DESC{{ else }}ob=ASC{{ end }}{{ else }}ob=ASC{{ end }}&of=gender">性别</a>
+                            </th> 
+                            <th class="tc" style="text-align:left;">
+                                <a href="/teacher/list/?{{ if eq .of "create_at" }}{{ if eq .ob "ASC" }}ob=DESC{{ else }}ob=ASC{{ end }}{{ else }}ob=ASC{{ end }}&of=create_at">创建时间</a> 
+                            </th>
+                            <th class="tc" style="text-align:left;">
+                                <a href="/teacher/list/?{{ if eq .of "update_at" }}{{ if eq .ob "ASC" }}ob=DESC {{ else }}ob=ASC{{ end }}{{ else }}ob=ASC{{ end }}&of=update_at">修改时间</a>
+                            </th>
+                            <th>操作</th>
+                        </tr>
+                        {{ range .teacher }}
+                        <tr>
+                            <td class="tc">
+                                <input name="ids" value="{{ .id }}" type="checkbox">
+                            </td>
+                            <td>{{ .teacherName }}</td>
+                            <td>{{ .gender }}</td>
+                            <td>{{ .create_at }}</td>
+                            <td>{{ .update_at}}</td>
+                            <td>
+                                <a class="link-update" href="/teacher/list/update/?id={{ .id }}">修改</a>
+                                <a class="link-del" href="/teacher/list/delete/?id={{ .id }}">删除</a>
+                            </td>
+                        </tr>  
+                        {{ end }}  
+                    </table>
+                    <div class="result-wrap" align="center">
+                        共  {{ .count }}  条记录&nbsp;&nbsp;&nbsp;&nbsp;        
+                        <a class="common-text required" href="/teacher/list/?page=1" >首页</a>
+                        {{ if gt .prev 0 }}
+                        <a class="common-text required" href="/teacher/list/?page={{ .prev }}&keywords={{ .keywords }}&ob={{ .ob }}&of={{ .of }}" >{{ .prev }}</a>
+                        {{ end }}
+                        <a class="common-text required" href="/teacher/list/?page={{ .page }}&keywords={{ .keywords }}&ob={{ .ob }}&of={{ .of }}" >{{ .page }}</a>
+                        {{ if lt .prev .end }}
+                        <a class="common-text required" href="/teacher/list/?page={{ .next }}&keywords={{ .keywords }}&ob={{ .ob }}&of={{ .of }}" >{{ .next }}</a>
+                        {{ end }}
+                        <a class="common-text required" href="/teacher/list/?page={{ .pagecount }}&keywords={{ .keywords }}&ob={{ .ob }}&of={{ .of }}" >最后一页</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</body>
+<script>
+        $(function(){
+    
+            $("#checkbox-allchoose").click(function(){
+                $('input[name="ids"]').prop("checked", $("#checkbox-allchoose").prop("checked"))
+            }); 
+    
+            $("#batchDel").click(function(){
+                $("#list-form").submit()
+                return false;
+            })
+        })
+    </script>
+</html>

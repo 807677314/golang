@@ -1,0 +1,32 @@
+{{ define "header" }}
+
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+    <script type="text/javascript" src="/js/modernizr.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script >
+        $(function(){
+            $("#nowtime").css({color:'red'});
+            $("#host").html(location.host);
+            //alert(location.host);
+            window.setInterval('ShowTime()',1000);
+        });
+        function ShowTime(){
+            var t = new Date();
+            var str = t.getFullYear() + '年';
+            str += t.getMonth() + '月';
+            str += t.getDate() + '日 ';
+            str += t.getHours() + ':';
+            str += t.getMinutes() + ':';
+            str += t.getSeconds() + '';
+            $("#nowtime").html(str);
+        }
+    </script>
+    
+    
+</head>
+
+{{ end }}

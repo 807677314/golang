@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+{{ template "./partial/head.html" . }}
+<body>
+{{ template "./partial/top.html" . }}
+
+<div class="container clearfix">
+   
+    <!--左侧菜单栏 begin-->
+{{ template "./partial/menu.html" . }}
+    <!--左侧菜单栏 begin-->
+    
+    <!--右侧主操作区-->
+    {{.LayoutContent}}
+    <!--/main-->
+</div>
+
+</body>
+
+{{ template "./partial/js.html" . }}
+</html>

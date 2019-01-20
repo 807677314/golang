@@ -1,0 +1,87 @@
+<div class="main-wrap">
+
+    <div class="crumb-wrap">
+        <div class="crumb-list"><i class="icon-font"></i>
+            <a href="/Index/">首页</a>
+            <span class="crumb-step">&gt;</span>
+            <span class="crumb-name">分类管理</span>
+        </div>
+    </div>
+    <div class="search-wrap">
+        <div class="search-content">
+            <form action="" method="post">
+                <table class="search-tab">
+                    <tr>
+                        <th width="120">选择分类:</th>
+                        <td>
+                            <select name="search-sort" id="">
+                                <option value="">全部</option>
+                                <option value="19">精品界面</option>
+                                <option value="20">推荐界面</option>
+                            </select>
+                        </td>
+                        <th width="70">关键字:</th>
+                        <td><input class="common-text" placeholder="关键字" name="keywords" value="" id="" type="text">
+                        </td>
+                        <td><input class="btn btn-primary btn2" name="sub" value="查询" type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div class="result-wrap">
+        <form name="myform" id="myform" method="post">
+            <div class="result-title">
+                <div class="result-list">
+                    <a href="{{ urlfor "ClassroomController.ClassroomAddList" }}"><i class="icon-font"></i>classroomAdd</a>
+                    <a id="batchDel" href="javascript:void(0)"><i class="icon-font"></i>批量删除</a>
+                </div>
+            </div>
+            <div class="result-content">
+                <table class="result-tab" width="100%">
+                    <tr>
+                        <th class="tc" width="5%">
+                            <input class="allChoose" name="" type="checkbox">
+                        </th>
+                        <th>ClassroomName</th>
+                        <th>ClassroomAdress</th>
+                        <th>Create_At</th>
+                        <th>Update_At</th>
+                        <th>Handle</th>
+                    </tr>
+
+                    {{ range .classroom }}
+                        <tr>
+                            <td class="tc">
+                                <input name="id" value="{{ .Id }}" type="checkbox">
+                            </td>
+                            <td>{{ .ClassroomName }}</td>
+                            <td>{{ .ClassroomAdress }}</td>
+                            <th>{{ .CreateAt }}</th>
+                            <th>{{ .UpdateAt }}</th>
+
+                            <td>
+                                <a class="link-update"
+                                   href="{{ urlfor "ClassroomController.ClassroomUpdateList" ":id" .Id }}">修改</a>
+                                <a class="link-del" href="{{ urlfor "ClassroomController.ClassroomDelete" ":id" .Id }}">删除</a>
+                            </td>
+                        </tr>
+                    {{ end }}
+                </table>
+                <div class="result-wrap" align="center">
+                    共 {{ .count }} 条记录&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="common-text required" href="/class/list/?page=1">&nbsp;首页&nbsp;</a>
+                    {{ if gt .prev 0 }}
+                        <a class="common-text required" href="/class/list/?page={{ .prev }}">&nbsp;{{ .prev }}&nbsp;</a>
+                    {{ end }}
+                    <a class="common-text required" href="/class/list/?page={{ .page }}">&nbsp;{{ .page }}&nbsp;</a>
+                    {{ if lt .next .over }}
+                        <a class="common-text required" href="/class/list/?page={{ .next }}">&nbsp;{{ .next }}&nbsp;</a>
+                    {{ end }}
+                    <a class="common-text required" href="/class/list/?page={{ .pagecount }}">&nbsp;最后一页&nbsp;</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>

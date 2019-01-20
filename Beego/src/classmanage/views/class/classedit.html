@@ -1,0 +1,52 @@
+<div class="main-wrap">
+
+    <div class="crumb-wrap">
+        <div class="crumb-list"><i class="icon-font"></i>
+            <a href="?p=back">首页</a>
+            <span class="crumb-step">&gt;</span>
+            <span class="crumb-name">分类管理</span>
+            <span class="crumb-step">&gt;</span>
+            <span class="crumb-name">添加分类</span>
+        </div>
+    </div>
+    <div class="result-wrap">
+        <div class="result-content">
+            <form action="" method="post" id="myform">
+                <table class="insert-tab" width="100%">
+                    <tbody>
+                    <tr>
+                        <th><i class="require-red">*</i>className：</th>
+                        <td>
+
+                            <input class="common-text required" id="title" name="className" size="50"
+                                   value="{{ or $.old.className .classinfo.ClassName }}" type="text">
+                            {{ if .classname }}
+                                <label for="className" style="display: block">{{ .classname }}</label>
+                            {{ end }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>classDescription：</th>
+                        <td>
+                            <textarea name="classDescription" class="common-textarea" cols="60"
+                                      rows="4">{{ or $.old.classDescription .classinfo.ClassDesc }}</textarea>
+                            {{ if .classdesc }}
+                                <label for="classDescription" style="display: block">{{ .classdesc }}</label>
+                            {{ end }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                            <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+
+    </div>
+
+</div>

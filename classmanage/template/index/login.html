@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<meta http-equiv="Pragma" content="no-cache"> 
+<meta http-equiv="Cache-Control" content="no-cache"> 
+<meta http-equiv="Expires" content="0"> 
+<title>后台管理</title>
+<link href="/css/login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="login_box">
+      <div class="login_l_img"><img src="/images/login-img.png" /></div>
+      <div class="login">
+          <div class="login_logo"><a href="#"><img src="/images/login_logo.png" /></a></div>
+          <div class="login_name">
+               <p>后台管理系统</p>
+          </div>
+          <form method="post">
+                <input name="user" type="text" placeholder="用户名" autofocus>
+                
+                <input name="password" type="password" id="password" placeholder="密码" min="6"/>
+                <input name="captcha" type="text" id="password" placeholder="验证码" />
+                <img src="/login/captcha/" alt="验证码" title="点击更换" style="display:block;width:300px;height:50px;" onclick="this.src='/login/captcha/?'+Math.random()">
+                <div style="display:block">
+                    <input name="rememberme" type="checkbox" id="password" value="1" />remember me 
+                </div>
+                <input value="注册账号" style="width:49%;" class="button_signup" onclick="javascrtpt:window.location.href='/signup/'"> 
+                <input value="登录" style="width:49%;" type="submit">
+          </form>
+      </div>
+      <div class="copyright">某某有限公司 版权所有©2016-2018 技术支持电话：000-00000000</div>
+</div>
+</body>
+</html>

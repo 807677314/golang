@@ -1,0 +1,51 @@
+<div class="main-wrap">
+
+    <div class="crumb-wrap">
+        <div class="crumb-list"><i class="icon-font"></i>
+            <a href="?p=back">首页</a>
+            <span class="crumb-step">&gt;</span>
+            <span class="crumb-name">分类管理</span>
+            <span class="crumb-step">&gt;</span>
+            <span class="crumb-name">添加分类</span>
+        </div>
+    </div>
+    <div class="result-wrap">
+        <div class="result-content">
+            <form action="" method="post" id="myform">
+                <table class="insert-tab" width="100%">
+                    <tbody>
+                    <tr>
+                        <th><i class="require-red">*</i>classroomName：</th>
+                        <td>
+                            <input class="common-text required" id="title" name="classroomName" size="50"
+                                   value="{{ or $.old.classroomName   .classroominfo.ClassroomName }}" type="text">
+                            {{ if .classroomname }}
+                                <label for="classroomName" style="display: block">{{ .classroomname }}</label>
+                            {{ end }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>classroomAdress：</th>
+                        <td>
+                            <textarea name="classroomAdress" class="common-textarea" cols="60"
+                                      rows="4">{{ or $.old.classroomAdress .classroominfo.ClassroomAdress }}</textarea>
+                            {{ if .classroomadress }}
+                                <label for="classroomAdress" style="display: block">{{ .classroomadress }}</label>
+                            {{ end }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                            <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html>
+{{ template "header" }}
+<body>
+{{ template "top" . }}
+<div class="container clearfix">
+ {{ template "menu" }}
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i>
+                <a href="/Index/">首页</a>
+                <span class="crumb-step">&gt;</span>
+                <span class="crumb-name">教室管理</span>
+                <span class="crumb-step">&gt;</span>
+                <span class="crumb-name">修改教室</span>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="" method="post" id="myform" >
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>教室名称：</th>
+                                <td>
+                                    <input class="common-text required" id="title" name="classroomName" size="50" value="{{ .classroom.classroomName }}" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>教室地址：</th>
+                                <td>
+                                    <textarea name="classroomAdress" class="common-textarea" cols="60" rows="4">{{ .classroom.classroomAdress }}</textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <!--/右侧主操作区-->
+</div>
+
+</body>
+</html>

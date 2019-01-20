@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html>
+{{ template "header" }}
+<body>
+{{ template "top" . }}
+<div class="container clearfix">
+ {{ template "menu" }}
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i>
+                <a href="/Index/">首页</a>
+                <span class="crumb-step">&gt;</span>
+                <span class="crumb-name">课程管理</span>
+                <span class="crumb-step">&gt;</span>
+                <span class="crumb-name">添加课程</span>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="" method="post" id="myform" >
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                            <tr>
+                                <th><i class="require-red">*</i>课程名称：</th>
+                                <td>
+                                    <select class="common-text required"  name="classid"  style="width:200px;">
+                                        <option selected>请选择</option>
+                                        {{ range .class }}
+                                        <option value="{{ .id }}">{{ .className }}</option>
+                                        {{ end }}
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>教室名称：</th>
+                                <td>
+                                    <select class="common-text required"  name="classroomid"  style="width:200px;">
+                                        <option selected>请选择</option>
+                                        {{ range .classroom }}
+                                        <option value="{{ .id }}">{{ .classroomName }}</option>
+                                        {{ end }}
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><i class="require-red">*</i>教师：</th>
+                                <td>
+                                    <select class="common-text required"  name="teacherid"  style="width:200px;">
+                                        <option selected>请选择</option>
+                                        {{ range .teacher }}
+                                        <option value="{{ .id }}">{{ .teacherName }}</option>
+                                        {{ end }}
+                                    </select>
+                                </td>
+                            </tr>
+                           
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                    <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <!--/右侧主操作区-->
+</div>
+
+</body>
+</html>
