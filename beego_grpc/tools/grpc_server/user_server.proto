@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package controllers;
+
+
+
+message UserRequest{
+    int64 user_id = 1;
+    string user_name = 2;
+}
+
+message UserIDResponse{
+    int64 user_id = 1;
+}
+
+message UserNameResponse{
+    string user_name = 1;
+}
+
+service UserServer {
+    rpc GetUserById(UserRequest) returns (UserIDResponse);
+    rpc GetUserName(UserRequest) returns (UserNameResponse);
+
+}
