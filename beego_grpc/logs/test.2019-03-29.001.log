@@ -1,0 +1,466 @@
+2019/03/27 19:52:34.337 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 19:52:36.920 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 19:52:44.679 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 19:53:43.373 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 19:54:15.551 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 19:54:24.622 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:37.956 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:39.174 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:40.633 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:41.814 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:42.967 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:44.090 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:45.170 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:46.298 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:47.399 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:48.481 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:49.582 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:26:51.056 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 22:26:51.056 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 22:26:51.057 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 22:26:51.059 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 22:26:51.060 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 22:26:51.060 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:76
+2019/03/27 22:26:51.061 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:17
+2019/03/27 22:26:51.061 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 22:26:51.061 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 22:26:51.062 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 22:26:51.062 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 22:26:51.063 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 22:26:51.063 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 22:26:51.064 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 22:27:11.076 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:27:11.898 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:27:14.291 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 22:27:14.291 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 22:27:14.292 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 22:27:14.293 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 22:27:14.293 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 22:27:14.294 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:76
+2019/03/27 22:27:14.295 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:17
+2019/03/27 22:27:14.296 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 22:27:14.296 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 22:27:14.297 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 22:27:14.298 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 22:27:14.298 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 22:27:14.299 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 22:27:14.300 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 22:27:15.338 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 22:27:15.339 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 22:27:15.340 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 22:27:15.341 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 22:27:15.341 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 22:27:15.342 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:76
+2019/03/27 22:27:15.342 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:17
+2019/03/27 22:27:15.343 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 22:27:15.347 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 22:27:15.347 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 22:27:15.348 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 22:27:15.348 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 22:27:15.348 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 22:27:15.349 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 22:27:16.297 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 22:27:16.298 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 22:27:16.299 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 22:27:16.300 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 22:27:16.300 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 22:27:16.301 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:76
+2019/03/27 22:27:16.301 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:17
+2019/03/27 22:27:16.301 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 22:27:16.302 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 22:27:16.304 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 22:27:16.305 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 22:27:16.306 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 22:27:16.306 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 22:27:16.307 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 22:33:30.653 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:42:35.949 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:43:35.412 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 22:43:35.413 [C] [panic.go:522]  Handler crashed with error can't find templatefile in the path:views/cloudcontrollers/cloudupload.tpl
+2019/03/27 22:43:35.413 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 22:43:35.413 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/template.go:75
+2019/03/27 22:43:35.414 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:282
+2019/03/27 22:43:35.414 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:233
+2019/03/27 22:43:35.414 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:213
+2019/03/27 22:43:35.415 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:864
+2019/03/27 22:43:35.415 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 22:43:35.415 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 22:43:35.415 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 22:43:35.416 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 22:44:18.533 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:44:38.234 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 22:44:38.234 [C] [panic.go:522]  Handler crashed with error can't find templatefile in the path:views/cloudcontrollers/cloudupload.tpl
+2019/03/27 22:44:38.235 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 22:44:38.235 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/template.go:75
+2019/03/27 22:44:38.236 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:282
+2019/03/27 22:44:38.237 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:233
+2019/03/27 22:44:38.237 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:213
+2019/03/27 22:44:38.238 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:864
+2019/03/27 22:44:38.238 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 22:44:38.238 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 22:44:38.238 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 22:44:38.239 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 22:45:25.249 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:45:26.096 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:45:38.099 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 22:45:38.100 [C] [panic.go:522]  Handler crashed with error can't find templatefile in the path:views/cloudcontrollers/cloudupload.tpl
+2019/03/27 22:45:38.101 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 22:45:38.102 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/template.go:75
+2019/03/27 22:45:38.103 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:282
+2019/03/27 22:45:38.105 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:233
+2019/03/27 22:45:38.106 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:213
+2019/03/27 22:45:38.108 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:864
+2019/03/27 22:45:38.111 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 22:45:38.111 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 22:45:38.112 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 22:45:38.113 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 22:45:59.768 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:46:16.506 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 22:46:16.507 [C] [panic.go:522]  Handler crashed with error can't find templatefile in the path:views/cloudcontrollers/cloudupload.tpl
+2019/03/27 22:46:16.508 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 22:46:16.509 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/template.go:75
+2019/03/27 22:46:16.509 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:282
+2019/03/27 22:46:16.510 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:233
+2019/03/27 22:46:16.511 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:213
+2019/03/27 22:46:16.511 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:864
+2019/03/27 22:46:16.511 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 22:46:16.511 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 22:46:16.512 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 22:46:16.513 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 22:46:44.488 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:47:01.124 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:48:27.227 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:51:44.823 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:52:49.399 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:56:27.358 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:57:44.899 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:58:51.760 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 22:59:29.136 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:00:52.409 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:00:57.626 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 23:00:57.626 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 23:00:57.626 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 23:00:57.627 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 23:00:57.627 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 23:00:57.627 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:42
+2019/03/27 23:00:57.627 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:141
+2019/03/27 23:00:57.627 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:156
+2019/03/27 23:00:57.628 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:95
+2019/03/27 23:00:57.628 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 23:00:57.628 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 23:00:57.628 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 23:00:57.628 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 23:00:57.629 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 23:00:57.629 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 23:00:57.630 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 23:01:34.545 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:01:44.614 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:02:07.782 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 23:02:07.782 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 23:02:07.783 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 23:02:07.783 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 23:02:07.784 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 23:02:07.784 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:42
+2019/03/27 23:02:07.784 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:141
+2019/03/27 23:02:07.785 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:156
+2019/03/27 23:02:07.785 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:95
+2019/03/27 23:02:07.786 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 23:02:07.786 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 23:02:07.787 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 23:02:07.788 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 23:02:07.788 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 23:02:07.788 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 23:02:07.789 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 23:02:41.408 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:02:47.954 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 23:02:47.955 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 23:02:47.955 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 23:02:47.956 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 23:02:47.956 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 23:02:47.956 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:42
+2019/03/27 23:02:47.957 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:140
+2019/03/27 23:02:47.957 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:155
+2019/03/27 23:02:47.957 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:94
+2019/03/27 23:02:47.958 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 23:02:47.959 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 23:02:47.960 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 23:02:47.960 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 23:02:47.961 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 23:02:47.961 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 23:02:47.962 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 23:04:01.953 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:04:29.628 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 23:04:29.629 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 23:04:29.629 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 23:04:29.630 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 23:04:29.630 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 23:04:29.631 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:42
+2019/03/27 23:04:29.631 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:140
+2019/03/27 23:04:29.631 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:157
+2019/03/27 23:04:29.631 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:94
+2019/03/27 23:04:29.632 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 23:04:29.633 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 23:04:29.633 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 23:04:29.633 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 23:04:29.633 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 23:04:29.634 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 23:04:29.634 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 23:05:11.694 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:05:23.119 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:05:30.500 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 23:05:30.500 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 23:05:30.501 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 23:05:30.501 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 23:05:30.501 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 23:05:30.504 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:42
+2019/03/27 23:05:30.504 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:139
+2019/03/27 23:05:30.505 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:156
+2019/03/27 23:05:30.506 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:93
+2019/03/27 23:05:30.506 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 23:05:30.506 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 23:05:30.506 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 23:05:30.506 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 23:05:30.506 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 23:05:30.506 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 23:05:30.507 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 23:06:13.859 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:06:27.125 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:06:33.224 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 23:06:33.224 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 23:06:33.225 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 23:06:33.225 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 23:06:33.225 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 23:06:33.226 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:42
+2019/03/27 23:06:33.226 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:141
+2019/03/27 23:06:33.227 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:158
+2019/03/27 23:06:33.227 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:93
+2019/03/27 23:06:33.228 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 23:06:33.229 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 23:06:33.229 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 23:06:33.229 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 23:06:33.230 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 23:06:33.230 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 23:06:33.231 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 23:07:11.638 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:07:21.077 [C] [panic.go:522]  the request url is  /cloudupload
+2019/03/27 23:07:21.077 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/27 23:07:21.077 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/27 23:07:21.078 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/27 23:07:21.078 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/27 23:07:21.079 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/nelsonken/cos-go-sdk-v5/cos/client.go:42
+2019/03/27 23:07:21.079 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:141
+2019/03/27 23:07:21.080 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:158
+2019/03/27 23:07:21.080 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/controllers/upload/cloud_upload.go:93
+2019/03/27 23:07:21.080 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/27 23:07:21.081 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/27 23:07:21.081 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/27 23:07:21.081 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/27 23:07:21.081 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/27 23:07:21.082 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/27 23:07:21.082 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/27 23:11:45.741 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:12:23.790 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:13:13.639 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:13:19.827 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:13:33.906 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:14:13.810 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:15:08.280 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:16:24.317 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:16:29.098 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:16:35.423 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:17:05.382 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:17:21.422 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:17:35.061 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:17:45.012 [E] [cloud_upload.go:97]  upload file catch err:  Put http://lidong-1258769991-1258769991.cos.ap-chengdu.https//lidong-1258769991.cos.ap-chengdu.myqcloud.com/news%2Fjpg_1553699860.jpg: dial tcp: lookup lidong-1258769991-1258769991.cos.ap-chengdu.https: no such host 
+2019/03/27 23:18:29.104 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:18:45.744 [E] [cloud_upload.go:97]  upload file catch err:  404:请求被拒绝The specified bucket does not exist. 
+2019/03/27 23:20:17.963 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:20:24.878 [E] [cloud_upload.go:97]  upload file catch err:  404:请求被拒绝The specified bucket does not exist. 
+2019/03/27 23:21:27.136 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:21:27.991 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:21:54.153 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:22:11.422 [E] [cloud_upload.go:96]  upload file catch err:  404:请求被拒绝The specified bucket does not exist. 
+2019/03/27 23:22:24.713 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:22:33.359 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:22:33.360 [C] [asm_amd64.s:1337]  ListenAndServe:  listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2019/03/27 23:22:41.801 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:24:31.092 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:33:16.738 [E] [cloud_upload.go:96]  upload file catch err:  404:请求被拒绝The specified bucket does not exist. 
+2019/03/27 23:33:36.358 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/27 23:34:11.110 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 09:03:36.025 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 09:32:59.798 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 09:35:14.271 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 09:37:09.204 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 09:56:44.496 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:10:32.707 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:11:18.925 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:12:33.123 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:13:43.795 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:19:06.941 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:22:23.998 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:23:06.320 [E] [upload_method.go:65]  upload file catch err:  Stat : The system cannot find the path specified. 
+2019/03/28 10:24:36.819 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:24:49.500 [E] [upload_method.go:65]  upload file catch err:  Stat : The system cannot find the path specified. 
+2019/03/28 10:25:15.634 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:25:24.277 [E] [upload_method.go:65]  upload file catch err:  Stat : The system cannot find the path specified. 
+2019/03/28 10:26:28.902 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:27:10.645 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:27:39.133 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:31:00.206 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:31:13.594 [E] [upload_method.go:64]  upload file catch err:  CreateFile /static/upload/file/news/jpg_1553740273.jpg: The system cannot find the path specified. 
+2019/03/28 10:34:29.657 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:34:39.411 [E] [upload_method.go:64]  upload file catch err:  CreateFile /static/upload/file/news/jpg_1553740479.jpg: The system cannot find the path specified. 
+2019/03/28 10:35:05.561 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:35:21.761 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:35:56.328 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:37:16.010 [E] [upload_method.go:64]  upload file catch err:  CreateFile /static/upload/file/news/jpg_1553740565.jpg: The system cannot find the path specified. 
+2019/03/28 10:37:23.869 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:41:53.233 [E] [upload_method.go:64]  upload file catch err:  CreateFile /static/upload/file/news/jpg_1553740650.jpg: The system cannot find the path specified. 
+2019/03/28 10:42:00.813 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:42:07.695 [E] [upload_method.go:64]  upload file catch err:  CreateFile /static/upload/file/news/jpg_1553740927.jpg: The system cannot find the path specified. 
+2019/03/28 10:43:15.472 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:59:34.059 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 10:59:39.791 [E] [upload_method.go:64]  upload file catch err:  Post http://up.qiniup.com: net/http: HTTP/1.x transport connection broken: http: ContentLength=1025 with Body length 226686 
+2019/03/28 11:06:31.322 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 11:13:06.728 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 14:14:59.885 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 14:17:56.861 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 14:20:07.021 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:17.396 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:18.264 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:19.679 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:20.511 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:21.645 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:22.861 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:23.941 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:24.983 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:26.069 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:27.158 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:28.298 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:29.374 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:30.460 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:31.560 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:41:37.854 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:43:20.313 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/28 15:43:20.313 [C] [panic.go:522]  Handler crashed with error can't find templatefile in the path:views/wechatcontrollers/wxhandler.tpl
+2019/03/28 15:43:20.313 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/28 15:43:20.313 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/template.go:75
+2019/03/28 15:43:20.313 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:282
+2019/03/28 15:43:20.313 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:233
+2019/03/28 15:43:20.313 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:213
+2019/03/28 15:43:20.313 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:864
+2019/03/28 15:43:20.313 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/28 15:43:20.313 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/28 15:43:20.313 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/28 15:43:20.314 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/28 15:43:41.143 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:44:29.890 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:53:35.308 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:55:12.295 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 15:55:32.323 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 16:05:17.059 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 16:05:23.047 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/28 16:05:23.047 [C] [panic.go:522]  Handler crashed with error can't find templatefile in the path:views/wechatcontrollers/wxhandler.tpl
+2019/03/28 16:05:23.047 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/28 16:05:23.047 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/template.go:75
+2019/03/28 16:05:23.047 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:282
+2019/03/28 16:05:23.047 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:233
+2019/03/28 16:05:23.048 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:213
+2019/03/28 16:05:23.048 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:864
+2019/03/28 16:05:23.048 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/28 16:05:23.048 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/28 16:05:23.048 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/28 16:05:23.049 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/28 16:05:44.859 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 16:07:42.439 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 18:11:39.484 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 18:15:09.416 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 18:19:19.003 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 18:19:43.524 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 18:22:50.835 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 18:27:36.117 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 18:58:23.689 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:05:50.081 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:06:14.160 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:07:44.895 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:09:20.909 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:10:02.165 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:10:53.272 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:11:25.203 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:18:22.077 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:19:00.831 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:22:20.463 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:22:31.742 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:30:26.428 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:31:50.635 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:41:50.334 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:43:25.320 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:45:10.178 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:50:04.932 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:50:14.235 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:57:32.913 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 19:58:55.000 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 21:54:31.795 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 21:55:58.745 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:00:03.040 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:03:48.401 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:06:33.037 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:12:33.305 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:13:29.498 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:15:15.235 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:22:13.828 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:36:28.376 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:36:32.659 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/28 22:36:32.659 [C] [panic.go:522]  Handler crashed with error runtime error: integer divide by zero
+2019/03/28 22:36:32.659 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/28 22:36:32.659 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:61
+2019/03/28 22:36:32.659 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/util/crypto.go:37
+2019/03/28 22:36:32.660 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/server.go:256
+2019/03/28 22:36:32.660 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/context.go:36
+2019/03/28 22:36:32.660 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:39
+2019/03/28 22:36:32.660 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/28 22:36:32.660 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/28 22:36:32.660 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/28 22:36:32.660 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/28 22:36:32.660 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/28 22:36:32.660 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/28 22:36:32.660 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/28 22:36:49.500 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:47:03.337 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 22:52:53.961 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 23:04:41.891 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 23:14:02.625 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 23:14:33.128 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 23:14:38.987 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 23:53:25.800 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 23:57:43.704 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 23:58:27.009 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 23:58:28.622 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/28 23:58:28.622 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/28 23:58:28.622 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/28 23:58:28.622 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/28 23:58:28.622 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/28 23:58:28.622 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:23
+2019/03/28 23:58:28.622 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/28 23:58:28.622 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/28 23:58:28.622 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/28 23:58:28.622 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/28 23:58:28.622 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/28 23:58:28.622 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/28 23:58:28.623 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/28 23:58:32.652 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/28 23:58:32.652 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/28 23:58:32.652 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/28 23:58:32.652 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/28 23:58:32.652 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/28 23:58:32.652 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:23
+2019/03/28 23:58:32.652 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/28 23:58:32.652 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/28 23:58:32.652 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/28 23:58:32.652 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/28 23:58:32.652 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/28 23:58:32.652 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/28 23:58:32.652 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/28 23:58:54.545 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/28 23:59:20.889 [I] [asm_amd64.s:1337]  http server Running on http://:8080

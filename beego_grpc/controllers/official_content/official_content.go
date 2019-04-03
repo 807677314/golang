@@ -1,9 +1,9 @@
 package official_content
 
 import (
-	"beego_grpc/tools/error"
 	"beego_grpc/controllers/views"
 	"beego_grpc/models/official_content_models"
+	"beego_grpc/tools/error"
 	"encoding/json"
 	"github.com/astaxie/beego"
 	"log"
@@ -18,13 +18,13 @@ type CMSContentController struct {
 	beego.Controller
 }
 
-func (this *CMSContentController) URLMapping() {
-	this.Mapping("getCategoryList", this.GetCategoryList)
-	this.Mapping("addCategory", this.AddCategory)
-	this.Mapping("getContent", this.GetContent)
-	this.Mapping("addContent", this.AddContent)
-	this.Mapping("removeContent", this.RemoveContent)
-	this.Mapping("getContentList", this.GetContentList)
+func (c *CMSContentController) URLMapping() {
+	c.Mapping("getCategoryList", c.GetCategoryList)
+	c.Mapping("addCategory", c.AddCategory)
+	c.Mapping("getContent", c.GetContent)
+	c.Mapping("addContent", c.AddContent)
+	c.Mapping("removeContent", c.RemoveContent)
+	c.Mapping("getContentList", c.GetContentList)
 }
 
 // @Title 获取内容分类目录列表
@@ -36,9 +36,9 @@ func (this *CMSContentController) URLMapping() {
 // @Failure 404
 
 // @router /getCategoryList [get]
-func (this *CMSContentController) GetCategoryList() {
-	lang := this.GetString("lang")
-	includeContent := this.GetString("content")
+func (c *CMSContentController) GetCategoryList() {
+	lang := c.GetString("lang")
+	includeContent := c.GetString("content")
 
 	categories := *official_content_models.GetCategoryAll(lang)
 	var result []*views.CMSCategoryView
@@ -62,10 +62,10 @@ func (this *CMSContentController) GetCategoryList() {
 		}
 	}
 
-	//this.JsonSuccess(&result)
-	this.Data["result"] = &result
+	//c.JsonSuccess(&result)
+	c.Data["result"] = &result
 
-	this.ServeJSON()
+	c.ServeJSON()
 
 }
 
@@ -81,7 +81,7 @@ func (this *CMSContentController) GetCategoryList() {
 // @Failure 404
 
 // @router /getContentList [post]
-func (this *CMSContentController) GetContentList() {
+func (c *CMSContentController) GetContentList() {
 	type ContentParams struct {
 		CategoryId int
 		Lang       string
@@ -89,17 +89,17 @@ func (this *CMSContentController) GetContentList() {
 		SubTitle   string
 	}
 
-	pageSize, _ := this.GetInt("pageSize", 10)
-	pageIndex, _ := this.GetInt("pageIndex", 1)
+	pageSize, _ := c.GetInt("pageSize", 10)
+	pageIndex, _ := c.GetInt("pageIndex", 1)
 	if pageIndex <= 0 {
 		pageIndex = 1
 	}
 
 	var ob ContentParams
-	err := json.Unmarshal(this.Ctx.Input.RequestBody, &ob)
+	err := json.Unmarshal(c.Ctx.Input.RequestBody, &ob)
 	if err != nil {
-		beego.Error("Param is not json", string(this.Ctx.Input.RequestBody))
-		//this.JsonResult(&ERROR_PARAM_NOT_JSON)
+		beego.Error("Param is not json", string(c.Ctx.Input.RequestBody))
+		//c.JsonResult(&ERROR_PARAM_NOT_JSON)
 		return
 	}
 
@@ -113,9 +113,9 @@ func (this *CMSContentController) GetContentList() {
 	contents := *official_content_models.GetCatontentList(content, pageIndex, pageSize)
 
 	log.Println(contents)
-	this.Data["content"] = &content
+	c.Data["content"] = &content
 
-	this.ServeJSON()
+	c.ServeJSON()
 }
 
 // @Title 根据ID获取内容详情
@@ -127,17 +127,17 @@ func (this *CMSContentController) GetContentList() {
 // @Failure 404
 
 // @router /addCategory [post]
-func (this *CMSContentController) AddCategory() {
+func (c *CMSContentController) AddCategory() {
 	type ContentParams struct {
 		Name string
 		Lang string
 	}
 
 	var ob ContentParams
-	err := json.Unmarshal(this.Ctx.Input.RequestBody, &ob)
+	err := json.Unmarshal(c.Ctx.Input.RequestBody, &ob)
 	if err != nil {
-		beego.Error("Param is not json", string(this.Ctx.Input.RequestBody))
-		//this.JsonResult(&ERROR_PARAM_NOT_JSON)
+		beego.Error("Param is not json", string(c.Ctx.Input.RequestBody))
+		//c.JsonResult(&ERROR_PARAM_NOT_JSON)
 		return
 	}
 
@@ -145,18 +145,18 @@ func (this *CMSContentController) AddCategory() {
 	category := &official_content_models.CMSCategory{Name: ob.Name, Lang: ob.Lang, DelFlag: "N"}
 	if err := official_content_models.GetEntity(category, "Name", "Lang", "DelFlag"); err == nil {
 		beego.Error("record exist: %v", category)
-		//this.JsonResult(&ERROR_RECORD_EXIST)
+		//c.JsonResult(&ERROR_RECORD_EXIST)
 		return
 	}
 
 	if official_content_models.Insert(category) <= 0 {
 		beego.Error("content insert db failed; ", err.Error())
-		//this.JsonResult(&ERROR_SYS_WRONG)
+		//c.JsonResult(&ERROR_SYS_WRONG)
 		return
 	}
 
-	this.Data["SUCCESS"] = (&error.SUCCESS)
-	this.ServeJSON()
+	c.Data["SUCCESS"] = (&error.SUCCESS)
+	c.ServeJSON()
 }
 
 // @Title 根据ID获取内容详情
@@ -167,10 +167,10 @@ func (this *CMSContentController) AddCategory() {
 // @Failure 404
 
 // @router /getContent [get]
-func (this *CMSContentController) GetContent() {
-	id, err := this.GetInt("id")
+func (c *CMSContentController) GetContent() {
+	id, err := c.GetInt("id")
 	if err != nil {
-		//this.JsonResult(&ERROR_PARAM_INVALID)
+		//c.JsonResult(&ERROR_PARAM_INVALID)
 		return
 	}
 
@@ -180,9 +180,9 @@ func (this *CMSContentController) GetContent() {
 		result.ConvertDown(content)
 	}
 
-	this.Data["result"] = &result
+	c.Data["result"] = &result
 
-	this.ServeJSON()
+	c.ServeJSON()
 }
 
 // @Title 新增Content内容
@@ -198,7 +198,7 @@ func (this *CMSContentController) GetContent() {
 // @Failure 404
 
 // @router /addContent [post]
-func (this *CMSContentController) AddContent() {
+func (c *CMSContentController) AddContent() {
 	type ContentParams struct {
 		Id       int
 		Title    string
@@ -209,10 +209,10 @@ func (this *CMSContentController) AddContent() {
 	}
 
 	var ob ContentParams
-	err := json.Unmarshal(this.Ctx.Input.RequestBody, &ob)
+	err := json.Unmarshal(c.Ctx.Input.RequestBody, &ob)
 	if err != nil {
-		beego.Error("param is not json", string(this.Ctx.Input.RequestBody))
-		//this.JsonResult(&ERROR_PARAM_NOT_JSON)
+		beego.Error("param is not json", string(c.Ctx.Input.RequestBody))
+		//c.JsonResult(&ERROR_PARAM_NOT_JSON)
 		return
 	}
 
@@ -220,18 +220,18 @@ func (this *CMSContentController) AddContent() {
 	category := &official_content_models.CMSCategory{Id: ob.Category}
 	if err := official_content_models.GetEntity(category); err != nil {
 		beego.Error("must exact the category value")
-		//this.JsonResult(&ERROR_PARAM_INVALID)
+		//c.JsonResult(&ERROR_PARAM_INVALID)
 		return
 	}
 
 	content := &official_content_models.CMSContent{Title: ob.Title, SubTitle: ob.SubTitle, Content: ob.Content, FrontPic: ob.FrontPic, Category: &official_content_models.CMSCategory{Id: ob.Category}, DelFlag: "N"}
 	if official_content_models.Insert(content) <= 0 {
-		//this.JsonResult(&ERROR_SYS_WRONG)
+		//c.JsonResult(&ERROR_SYS_WRONG)
 		return
 	}
 
-	this.Data["SUCCESS"] = (&error.SUCCESS)
-	this.ServeJSON()
+	c.Data["SUCCESS"] = (&error.SUCCESS)
+	c.ServeJSON()
 }
 
 // @Title 新增Content内容
@@ -242,18 +242,18 @@ func (this *CMSContentController) AddContent() {
 // @Failure 404
 
 // @router /removeContent [post]
-func (this *CMSContentController) RemoveContent() {
-	contentId, _ := this.GetInt("contentId", -1)
+func (c *CMSContentController) RemoveContent() {
+	contentId, _ := c.GetInt("contentId", -1)
 	if contentId < 0 {
-		//this.JsonResult(&ERROR_PARAM_INVALID)
+		//c.JsonResult(&ERROR_PARAM_INVALID)
 		return
 	}
 
 	if err := official_content_models.RemoveEntity(&official_content_models.CMSContent{Id: contentId}); err != nil {
-		//this.JsonResult(&ERROR_SYS_WRONG)
+		//c.JsonResult(&ERROR_SYS_WRONG)
 		return
 	}
 
-	this.Data["SUCCESS"] = (&error.SUCCESS)
-	this.ServeJSON()
+	c.Data["SUCCESS"] = (&error.SUCCESS)
+	c.ServeJSON()
 }

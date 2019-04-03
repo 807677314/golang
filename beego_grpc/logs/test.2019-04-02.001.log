@@ -1,0 +1,817 @@
+2019/03/29 00:00:25.665 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 00:00:29.806 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 00:00:29.806 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 00:00:29.806 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 00:00:29.806 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 00:00:29.806 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 00:00:29.806 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:55
+2019/03/29 00:00:29.806 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 00:00:29.806 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 00:00:29.806 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 00:00:29.806 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 00:00:29.806 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 00:00:29.806 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 00:00:29.807 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 00:01:39.972 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 00:01:45.891 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 00:01:45.891 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 00:01:45.891 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 00:01:45.891 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 00:01:45.891 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 00:01:45.891 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:57
+2019/03/29 00:01:45.891 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 00:01:45.891 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 00:01:45.891 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 00:01:45.891 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 00:01:45.891 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 00:01:45.891 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 00:01:45.892 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 00:08:58.386 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 00:09:04.095 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 00:09:04.095 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 00:09:04.096 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 00:09:04.096 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 00:09:04.096 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 00:09:04.096 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:72
+2019/03/29 00:09:04.096 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 00:09:04.096 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 00:09:04.096 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 00:09:04.096 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 00:09:04.096 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 00:09:04.096 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 00:09:04.096 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 00:09:39.852 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 00:09:41.190 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 00:09:41.190 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 00:09:41.190 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 00:09:41.190 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 00:09:41.190 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 00:09:41.190 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:72
+2019/03/29 00:09:41.190 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 00:09:41.190 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 00:09:41.190 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 00:09:41.190 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 00:09:41.190 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 00:09:41.190 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 00:09:41.191 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 08:58:34.298 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 08:59:00.370 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:00:24.572 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:00:38.348 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 09:00:38.348 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 09:00:38.348 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 09:00:38.348 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 09:00:38.348 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 09:00:38.348 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:74
+2019/03/29 09:00:38.348 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 09:00:38.348 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 09:00:38.348 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 09:00:38.348 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 09:00:38.348 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 09:00:38.348 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 09:00:38.349 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 09:00:48.838 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 09:00:48.838 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 09:00:48.839 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 09:00:48.839 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 09:00:48.839 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 09:00:48.839 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:74
+2019/03/29 09:00:48.839 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 09:00:48.839 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 09:00:48.839 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 09:00:48.839 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 09:00:48.839 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 09:00:48.839 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 09:00:48.839 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 09:00:54.692 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 09:00:54.692 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 09:00:54.692 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 09:00:54.692 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 09:00:54.692 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 09:00:54.692 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:74
+2019/03/29 09:00:54.692 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 09:00:54.692 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 09:00:54.693 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 09:00:54.693 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 09:00:54.693 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 09:00:54.693 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 09:00:54.693 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 09:01:41.051 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 09:01:41.051 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 09:01:41.051 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 09:01:41.051 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 09:01:41.051 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 09:01:41.051 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:74
+2019/03/29 09:01:41.051 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 09:01:41.051 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 09:01:41.051 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 09:01:41.051 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 09:01:41.051 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 09:01:41.051 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 09:01:41.051 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 09:02:02.720 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:02:10.915 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 09:02:10.915 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 09:02:10.915 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 09:02:10.915 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 09:02:10.915 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 09:02:10.915 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:74
+2019/03/29 09:02:10.915 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 09:02:10.915 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 09:02:10.915 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 09:02:10.915 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 09:02:10.915 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 09:02:10.915 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 09:02:10.915 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 09:02:58.900 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 09:02:58.900 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 09:02:58.900 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 09:02:58.900 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 09:02:58.900 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 09:02:58.900 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:74
+2019/03/29 09:02:58.900 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 09:02:58.900 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 09:02:58.900 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 09:02:58.900 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 09:02:58.900 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 09:02:58.900 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 09:02:58.900 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 09:03:32.618 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:04:30.395 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:04:34.239 [C] [panic.go:522]  the request url is  /wechathandle
+2019/03/29 09:04:34.239 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/03/29 09:04:34.239 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/03/29 09:04:34.239 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/03/29 09:04:34.239 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/03/29 09:04:34.239 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechatSDK.go:72
+2019/03/29 09:04:34.239 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/03/29 09:04:34.239 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/03/29 09:04:34.239 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/03/29 09:04:34.239 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/03/29 09:04:34.239 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/03/29 09:04:34.239 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/03/29 09:04:34.240 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/03/29 09:05:45.021 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:07:11.270 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:10:27.573 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:11:37.456 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:15:01.453 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:19:13.758 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:20:20.678 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:21:22.641 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:25:27.140 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:26:44.293 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:27:12.328 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:37:32.156 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 09:47:40.124 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:15:45.481 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:16:25.499 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:18:12.385 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:18:49.050 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:19:58.368 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:20:32.075 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:20:51.191 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:24:46.279 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:27:24.192 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:41:22.216 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:42:07.334 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:45:10.736 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:55:04.752 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:55:48.901 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:56:44.378 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 10:57:27.888 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:02:20.182 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:06:21.911 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:06:39.535 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:08:12.043 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:10:12.593 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:10:22.651 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:10:59.161 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:11:30.564 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:12:20.257 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:13:31.898 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:17:11.886 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:18:47.914 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:19:26.883 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:19:41.193 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:20:27.695 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:21:20.813 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:21:35.820 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:22:53.181 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:23:14.051 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:23:36.850 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:40:52.549 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:43:20.810 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:44:34.303 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:49:23.769 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:54:49.673 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:55:04.783 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:55:34.860 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:56:12.610 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:56:30.440 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:56:48.824 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:57:28.375 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:58:04.604 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 11:58:15.473 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 12:01:01.734 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 12:01:51.567 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 12:38:50.688 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 12:39:36.812 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 12:41:01.435 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 12:43:06.663 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 12:43:36.128 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 14:31:40.106 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 14:32:45.329 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 14:33:27.672 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 14:36:29.185 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 14:37:12.675 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/03/29 15:01:07.948 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 14:29:18.449 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 14:32:16.797 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 14:32:33.812 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 14:32:33.812 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/04/01 14:32:33.812 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 14:32:33.812 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/04/01 14:32:33.812 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/04/01 14:32:33.812 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/accesstoken.go:23
+2019/04/01 14:32:33.812 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/accesstoken.go:40
+2019/04/01 14:32:33.812 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:42
+2019/04/01 14:32:33.812 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:78
+2019/04/01 14:32:33.813 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 14:32:33.813 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 14:32:33.813 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 14:32:33.813 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 14:32:33.813 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 14:32:33.813 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 14:32:33.813 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 14:33:01.853 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 14:33:01.853 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/04/01 14:33:01.853 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 14:33:01.853 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/04/01 14:33:01.853 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/04/01 14:33:01.853 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/accesstoken.go:23
+2019/04/01 14:33:01.853 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/accesstoken.go:40
+2019/04/01 14:33:01.853 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:42
+2019/04/01 14:33:01.853 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:78
+2019/04/01 14:33:01.853 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 14:33:01.853 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 14:33:01.853 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 14:33:01.853 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 14:33:01.853 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 14:33:01.853 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 14:33:01.853 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 14:33:47.470 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 14:34:25.769 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 14:34:25.769 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/04/01 14:34:25.769 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 14:34:25.769 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/04/01 14:34:25.769 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/04/01 14:34:25.769 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/accesstoken.go:23
+2019/04/01 14:34:25.769 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/accesstoken.go:40
+2019/04/01 14:34:25.769 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:42
+2019/04/01 14:34:25.769 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:78
+2019/04/01 14:34:25.769 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 14:34:25.769 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 14:34:25.769 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 14:34:25.769 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 14:34:25.769 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 14:34:25.769 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 14:34:25.769 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 14:35:52.828 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 14:35:57.625 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 14:35:57.625 [C] [panic.go:522]  Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2019/04/01 14:35:57.625 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 14:35:57.625 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:82
+2019/04/01 14:35:57.625 [C] [panic.go:522]  D:/Go/src/runtime/signal_windows.go:233
+2019/04/01 14:35:57.625 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/accesstoken.go:23
+2019/04/01 14:35:57.625 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/esap/wechat/accesstoken.go:40
+2019/04/01 14:35:57.625 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:42
+2019/04/01 14:35:57.625 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:78
+2019/04/01 14:35:57.625 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 14:35:57.625 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 14:35:57.625 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 14:35:57.625 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 14:35:57.625 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 14:35:57.625 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 14:35:57.625 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 14:38:18.211 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 14:38:22.490 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 14:38:22.490 [C] [panic.go:522]  Handler crashed with error can't find templatefile in the path:views/wechatcontrollers/menucreate.tpl
+2019/04/01 14:38:22.490 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 14:38:22.490 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/template.go:75
+2019/04/01 14:38:22.490 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:282
+2019/04/01 14:38:22.490 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:233
+2019/04/01 14:38:22.490 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:213
+2019/04/01 14:38:22.490 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:864
+2019/04/01 14:38:22.490 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 14:38:22.490 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 14:38:22.490 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 14:38:22.490 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 14:38:45.715 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 14:40:54.490 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 14:45:19.594 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:15:30.586 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:16:38.663 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:17:32.794 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:18:10.946 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:19:04.275 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:19:26.257 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 15:19:26.257 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 15:19:26.257 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 15:19:26.257 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 15:19:26.257 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:115
+2019/04/01 15:19:26.257 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 15:19:26.257 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 15:19:26.257 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 15:19:26.257 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 15:19:26.257 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 15:19:26.257 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 15:19:26.257 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 15:20:06.081 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:20:08.634 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 15:20:08.634 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 15:20:08.634 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 15:20:08.634 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 15:20:08.634 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:115
+2019/04/01 15:20:08.634 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 15:20:08.634 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 15:20:08.634 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 15:20:08.634 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 15:20:08.634 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 15:20:08.634 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 15:20:08.635 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 15:20:59.178 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:21:03.914 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 15:21:03.914 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 15:21:03.914 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 15:21:03.914 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 15:21:03.914 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:115
+2019/04/01 15:21:03.914 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 15:21:03.914 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 15:21:03.914 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 15:21:03.914 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 15:21:03.914 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 15:21:03.914 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 15:21:03.915 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 15:21:40.458 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 15:21:40.458 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 15:21:40.458 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 15:21:40.458 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 15:21:40.458 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:115
+2019/04/01 15:21:40.458 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 15:21:40.458 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 15:21:40.458 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 15:21:40.458 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 15:21:40.458 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 15:21:40.458 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 15:21:40.459 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 15:22:00.117 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:22:14.934 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:22:17.189 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 15:22:17.189 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 15:22:17.189 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 15:22:17.189 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 15:22:17.189 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:115
+2019/04/01 15:22:17.189 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 15:22:17.189 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 15:22:17.189 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 15:22:17.189 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 15:22:17.189 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 15:22:17.189 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 15:22:17.189 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 15:22:41.660 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:23:14.226 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:38:36.340 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:39:03.962 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:39:27.831 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 15:39:27.831 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 15:39:27.831 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 15:39:27.831 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 15:39:27.831 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:107
+2019/04/01 15:39:27.831 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 15:39:27.831 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 15:39:27.831 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 15:39:27.831 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 15:39:27.831 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 15:39:27.831 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 15:39:27.832 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 15:40:12.314 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:40:35.272 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 15:40:35.272 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is []uint8, not string
+2019/04/01 15:40:35.272 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 15:40:35.272 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 15:40:35.272 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:107
+2019/04/01 15:40:35.272 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 15:40:35.272 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 15:40:35.272 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 15:40:35.272 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 15:40:35.272 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 15:40:35.272 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 15:40:35.273 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 15:42:14.073 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:44:21.893 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:45:07.892 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 15:50:29.220 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 16:20:18.877 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 16:34:55.255 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 16:35:39.626 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 16:36:38.538 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 16:36:38.538 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 16:36:38.538 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 16:36:38.538 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 16:36:38.538 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:134
+2019/04/01 16:36:38.538 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 16:36:38.538 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 16:36:38.538 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 16:36:38.538 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 16:36:38.538 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 16:36:38.538 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 16:36:38.539 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 16:40:45.137 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 16:44:11.285 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 16:47:11.466 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 16:53:02.560 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 16:53:36.004 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 16:53:36.004 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is []uint8, not map[string]interface {}
+2019/04/01 16:53:36.004 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 16:53:36.004 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 16:53:36.004 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:137
+2019/04/01 16:53:36.004 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 16:53:36.004 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 16:53:36.005 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 16:53:36.005 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 16:53:36.005 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 16:53:36.005 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 16:53:36.005 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 16:54:03.820 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 16:54:50.234 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 16:55:22.887 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 17:00:59.505 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 17:02:19.688 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 17:02:49.118 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 17:10:48.065 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 17:11:55.062 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 17:15:41.552 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 17:52:42.631 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 17:53:46.017 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 17:54:48.208 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 17:56:31.960 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:04:36.712 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:05:40.626 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:09:45.661 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:11:05.792 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:11:14.847 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:11:19.277 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 18:11:19.277 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 18:11:19.277 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 18:11:19.277 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 18:11:19.277 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:162
+2019/04/01 18:11:19.277 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 18:11:19.277 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 18:11:19.277 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 18:11:19.277 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 18:11:19.277 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 18:11:19.277 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 18:11:19.278 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 18:12:43.715 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:13:09.901 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 18:13:09.901 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 18:13:09.901 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 18:13:09.901 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 18:13:09.901 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:164
+2019/04/01 18:13:09.901 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 18:13:09.901 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 18:13:09.901 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 18:13:09.901 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 18:13:09.901 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 18:13:09.901 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 18:13:09.902 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 18:13:15.069 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:14:26.980 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:14:41.312 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 18:14:41.312 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 18:14:41.312 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 18:14:41.312 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 18:14:41.312 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:162
+2019/04/01 18:14:41.312 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 18:14:41.312 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 18:14:41.312 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 18:14:41.312 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 18:14:41.312 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 18:14:41.312 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 18:14:41.313 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 18:15:48.374 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:16:42.715 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:17:29.759 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:17:54.942 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 18:17:54.942 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 18:17:54.942 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 18:17:54.942 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 18:17:54.942 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:163
+2019/04/01 18:17:54.942 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 18:17:54.942 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 18:17:54.942 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 18:17:54.942 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 18:17:54.942 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 18:17:54.942 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 18:17:54.943 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 18:18:00.054 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 18:18:00.054 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 18:18:00.054 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 18:18:00.054 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 18:18:00.054 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:163
+2019/04/01 18:18:00.054 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 18:18:00.054 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 18:18:00.054 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 18:18:00.054 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 18:18:00.054 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 18:18:00.054 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 18:18:00.055 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 18:19:21.548 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:20:42.911 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:20:50.399 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 18:20:50.399 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 18:20:50.399 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 18:20:50.399 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 18:20:50.399 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:161
+2019/04/01 18:20:50.399 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 18:20:50.399 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 18:20:50.399 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 18:20:50.399 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 18:20:50.399 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 18:20:50.399 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 18:20:50.400 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 18:20:56.568 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 18:20:56.568 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 18:20:56.568 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 18:20:56.568 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 18:20:56.568 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:161
+2019/04/01 18:20:56.568 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 18:20:56.568 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 18:20:56.568 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 18:20:56.568 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 18:20:56.568 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 18:20:56.568 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 18:20:56.568 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 18:21:32.522 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:26:32.522 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:29:54.050 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 18:30:18.603 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 18:30:18.603 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 18:30:18.603 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 18:30:18.603 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 18:30:18.603 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:168
+2019/04/01 18:30:18.603 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 18:30:18.603 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 18:30:18.603 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 18:30:18.603 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 18:30:18.603 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 18:30:18.603 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 18:30:18.603 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 19:16:36.183 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:17:09.616 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:17:18.516 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:19:03.437 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 19:19:03.437 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 19:19:03.437 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 19:19:03.437 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 19:19:03.437 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:174
+2019/04/01 19:19:03.437 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 19:19:03.437 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 19:19:03.437 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 19:19:03.437 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 19:19:03.437 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 19:19:03.437 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 19:19:03.438 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 19:19:11.137 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 19:19:11.137 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 19:19:11.137 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 19:19:11.137 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 19:19:11.137 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:174
+2019/04/01 19:19:11.137 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 19:19:11.137 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 19:19:11.137 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 19:19:11.137 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 19:19:11.137 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 19:19:11.137 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 19:19:11.137 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 19:19:16.523 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 19:19:16.523 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 19:19:16.523 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 19:19:16.523 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 19:19:16.523 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:174
+2019/04/01 19:19:16.523 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 19:19:16.523 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 19:19:16.523 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 19:19:16.523 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 19:19:16.523 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 19:19:16.523 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 19:19:16.523 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 19:19:21.908 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 19:19:21.908 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 19:19:21.908 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 19:19:21.908 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 19:19:21.908 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:174
+2019/04/01 19:19:21.908 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 19:19:21.908 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 19:19:21.908 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 19:19:21.908 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 19:19:21.908 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 19:19:21.908 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 19:19:21.908 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 19:19:52.744 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 19:19:52.744 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 19:19:52.744 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 19:19:52.744 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 19:19:52.744 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:174
+2019/04/01 19:19:52.744 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 19:19:52.744 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 19:19:52.744 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 19:19:52.744 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 19:19:52.744 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 19:19:52.744 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 19:19:52.744 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 19:19:58.135 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 19:19:58.135 [C] [panic.go:522]  Handler crashed with error interface conversion: interface {} is nil, not []uint8
+2019/04/01 19:19:58.136 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 19:19:58.136 [C] [panic.go:522]  D:/Go/src/runtime/iface.go:248
+2019/04/01 19:19:58.136 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:174
+2019/04/01 19:19:58.136 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 19:19:58.136 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 19:19:58.136 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 19:19:58.136 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 19:19:58.136 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 19:19:58.136 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 19:19:58.136 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 19:21:46.112 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:23:24.656 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:24:24.827 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:25:08.126 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:27:29.910 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:29:04.999 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:35:52.363 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:42:38.307 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:43:36.177 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 19:44:54.565 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 20:49:33.468 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 20:49:54.825 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 21:24:27.665 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 21:24:48.328 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 21:24:50.448 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 21:24:50.448 [C] [panic.go:522]  Handler crashed with error can't find templatefile in the path:views/wechatcontrollers/menucreate.tpl
+2019/04/01 21:24:50.448 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 21:24:50.448 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/template.go:75
+2019/04/01 21:24:50.448 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:282
+2019/04/01 21:24:50.448 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:233
+2019/04/01 21:24:50.448 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/controller.go:213
+2019/04/01 21:24:50.448 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:864
+2019/04/01 21:24:50.448 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 21:24:50.448 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 21:24:50.448 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 21:24:50.448 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 21:25:03.116 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 21:26:16.057 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 21:30:46.390 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 21:31:38.939 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 21:33:08.221 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 21:47:24.636 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:05:35.393 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:07:27.384 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:09:09.256 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:11:25.097 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:11:42.802 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:21:02.754 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:21:35.029 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:22:30.273 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:23:19.050 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:23:47.896 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:25:01.847 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:25:41.744 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:26:25.325 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:27:03.973 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:27:38.186 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:31:39.333 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:33:00.352 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:33:57.980 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:34:08.733 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:34:43.572 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:35:15.635 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:35:30.145 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:42:13.133 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:42:43.704 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:43:23.070 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:45:55.439 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:47:00.379 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:49:25.228 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:52:18.523 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:52:49.303 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:53:10.375 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:54:12.545 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:54:53.908 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:55:54.180 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 22:58:17.698 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:00:19.403 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:00:48.227 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:03:48.582 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:05:42.510 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:08:07.065 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:11:43.704 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:12:04.340 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 23:12:04.340 [C] [panic.go:522]  Handler crashed with error runtime error: index out of range
+2019/04/01 23:12:04.340 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 23:12:04.340 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:44
+2019/04/01 23:12:04.340 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:102
+2019/04/01 23:12:04.340 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 23:12:04.340 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 23:12:04.340 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 23:12:04.340 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 23:12:04.340 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 23:12:04.340 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 23:12:04.341 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 23:16:27.370 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:19:06.786 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:19:26.070 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 23:19:26.070 [C] [panic.go:522]  Handler crashed with error runtime error: index out of range
+2019/04/01 23:19:26.070 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 23:19:26.070 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:44
+2019/04/01 23:19:26.070 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:112
+2019/04/01 23:19:26.070 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 23:19:26.070 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 23:19:26.070 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 23:19:26.070 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 23:19:26.070 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 23:19:26.070 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 23:19:26.071 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 23:20:42.672 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:20:52.294 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 23:20:52.294 [C] [panic.go:522]  Handler crashed with error runtime error: index out of range
+2019/04/01 23:20:52.294 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 23:20:52.294 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:44
+2019/04/01 23:20:52.294 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:112
+2019/04/01 23:20:52.294 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 23:20:52.294 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 23:20:52.294 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 23:20:52.294 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 23:20:52.294 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 23:20:52.294 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 23:20:52.295 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 23:22:36.355 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:22:47.943 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 23:22:47.943 [C] [panic.go:522]  Handler crashed with error runtime error: index out of range
+2019/04/01 23:22:47.943 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 23:22:47.943 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:44
+2019/04/01 23:22:47.943 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:114
+2019/04/01 23:22:47.943 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 23:22:47.943 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 23:22:47.943 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 23:22:47.943 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 23:22:47.943 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 23:22:47.943 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 23:22:47.944 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 23:23:25.075 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:23:33.573 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 23:23:33.573 [C] [panic.go:522]  Handler crashed with error runtime error: index out of range
+2019/04/01 23:23:33.573 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 23:23:33.573 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:44
+2019/04/01 23:23:33.573 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:115
+2019/04/01 23:23:33.574 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 23:23:33.574 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 23:23:33.574 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 23:23:33.574 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 23:23:33.574 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 23:23:33.574 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 23:23:33.574 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 23:24:05.637 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:24:12.685 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:24:20.291 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 23:24:20.291 [C] [panic.go:522]  Handler crashed with error runtime error: index out of range
+2019/04/01 23:24:20.291 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 23:24:20.291 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:44
+2019/04/01 23:24:20.291 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:117
+2019/04/01 23:24:20.291 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 23:24:20.291 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 23:24:20.291 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 23:24:20.292 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 23:24:20.292 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 23:24:20.292 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 23:24:20.292 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 23:25:07.382 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:25:14.265 [C] [panic.go:522]  the request url is  /menucreate
+2019/04/01 23:25:14.266 [C] [panic.go:522]  Handler crashed with error runtime error: index out of range
+2019/04/01 23:25:14.266 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:522
+2019/04/01 23:25:14.266 [C] [panic.go:522]  D:/Go/src/runtime/panic.go:44
+2019/04/01 23:25:14.266 [C] [panic.go:522]  E:/Beego-Grpc/src/beego_grpc/tools/wechat/wechat_handler.go:118
+2019/04/01 23:25:14.266 [C] [panic.go:522]  D:/Go/src/reflect/value.go:447
+2019/04/01 23:25:14.266 [C] [panic.go:522]  D:/Go/src/reflect/value.go:308
+2019/04/01 23:25:14.266 [C] [panic.go:522]  E:/Beego-Grpc/src/github.com/astaxie/beego/router.go:852
+2019/04/01 23:25:14.266 [C] [panic.go:522]  D:/Go/src/net/http/server.go:2774
+2019/04/01 23:25:14.266 [C] [panic.go:522]  D:/Go/src/net/http/server.go:1878
+2019/04/01 23:25:14.266 [C] [panic.go:522]  D:/Go/src/runtime/asm_amd64.s:1337
+2019/04/01 23:25:14.266 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/04/01 23:25:39.106 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:39:13.979 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:40:56.394 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:45:43.080 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:49:18.167 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:50:23.571 [I] [asm_amd64.s:1337]  http server Running on http://:8080
+2019/04/01 23:55:37.288 [I] [asm_amd64.s:1337]  http server Running on http://:8080

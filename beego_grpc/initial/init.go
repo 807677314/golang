@@ -2,28 +2,54 @@ package initial
 
 import (
 	_ "beego_grpc/models/official_content_models"
-	_"beego_grpc/controllers/upload"
-	"fmt"
+	_ "beego_grpc/tools/upload"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/cache"
 	_ "github.com/astaxie/beego/cache/redis"
 	"github.com/astaxie/beego/orm"
+	"github.com/esap/wechat"
+
 	_ "github.com/go-sql-driver/mysql"
 
 	"log"
 )
 
-var Redis cache.Cache
+//var Redis cache.Cache
+var Bm cache.Cache
 
 func init() {
+
+	//初始化内存缓存
+	Bm, _ = cache.NewCache("memory", `{"interval":60}`)
 
 	//初始化日志
 	beego.SetLogger("file", `{"filename":"logs/test.log"}`)
 	//不关闭terminal打印
-	beego.BeeLogger.DelLogger("console")
+	//beego.BeeLogger.DelLogger("console")
 	beego.SetLevel(beego.LevelInformational)
 
-	//初始化mysql
+	//初始化wechatSDK
+	appID := beego.AppConfig.String("AppID")
+	token := beego.AppConfig.String("Token")
+	appSecret := beego.AppConfig.String("AppSecret")
+	access_token := beego.AppConfig.String("Access_token")
+
+	wd := beego.AppConfig.String("wechat_debug")
+
+	switch {
+	case wd == "true":
+		wechat.Debug = true
+	default:
+		wechat.Debug = false
+	}
+
+	if "" == access_token {
+		wechat.Set(token, appID, appSecret)
+	} else {
+		wechat.Set(token, appID, appSecret, access_token)
+	}
+
+	//初始化mysql数据库
 	aliasName := beego.AppConfig.String("aliasName")
 	drivers := beego.AppConfig.String("drivers")
 	dbUserName := beego.AppConfig.String("dbUserName")
@@ -46,18 +72,18 @@ func init() {
 	}
 
 	//初始化redis
-	defer func() {
-		if r := recover(); r != nil {
-			fmt.Println("initial redis error caught: %v\n", r)
-			Redis = nil
-		}
-	}()
-
-	Redis, err = cache.NewCache("redis", `{"conn":"`+beego.AppConfig.String("redis_host")+`"}`)
-
-	if err != nil {
-		fmt.Println(err)
-	}
+	//defer func() {
+	//	if r := recover(); r != nil {
+	//		fmt.Println("initial redis error caught: %v\n", r)
+	//		Redis = nil
+	//	}
+	//}()
+	//
+	//Redis, err = cache.NewCache("redis", `{"conn":"`+beego.AppConfig.String("redis_host")+`"}`)
+	//
+	//if err != nil {
+	//	fmt.Println(err)
+	//}
 
 	////初始化grabc
 	//var c []beego.ControllerInterface
